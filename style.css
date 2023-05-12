@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.links li{
+    /* float: right; */
+    list-style: none;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.links{
+    /* padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%; */
+
+    padding: 3% 20% 3% 20%;
+}
+
+.list
+{
+    display: flex;
+   flex-direction: row;
+
+    /* margin: 5px 10px 5px 10px;*/
+    /* padding: 0px 10px 0px 10px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* justify-items: center;
+    align-items: center; */
+    /* align-self: center;
+    justify-content: center;
+    align-content: center; */
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.nav >div{
+    background-color: white ;
+    
+    
+}
+
+.nav>div:nth-child(2){
+    background-color:#ffbc47;
+}
+
+/* .logo{
+    padding: 3% 20% 3% 0%;
+} */
+
+.logo img{
+    padding: 3% 0% 3% 20%;
+    height: 30px;
+    max-height: 30% ;
+    margin-bottom: 10%;
+}
+
+
+
+.content{
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 10%; */
+    
+    
+}
+
+.content>div:nth-child(even){
+    background-color:#ffbc47;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+    
+}
+
+.content>div:nth-child(odd){
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+}
+
+/* .icc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 53.75%; */
+    /* justify-items: start;
+    align-items: center; */
+    /* padding-right: 20%; */
+    
+   
+
+/* .icc>div:last-child{
+    background-color: #ffbc47;
+}
+
+.icc>div:first-child{
+    background-color: white;
+} */ 
+
+/* .imgcc img{
+    padding: 3% 0% 3% 20%;
+    height: 20px;
+    width: 5px;
+    max-height: 30% ;
+    margin-bottom: 10%;
+} */    
+
+.content h1{
+    color: #ffbc47;
+    font-size: 300%;
+}
+
+.content p{
+    color: #a79b85;
+    font-size: 150%;
+}
+
+
+button{
+    margin-top: 10%;
+    background-color: #f6cc83;
+    font-size: 120%;
+    border: none;
+    border-radius: 7%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 1% 3% 1% 3%;
+    cursor: pointer;
+}
+
+.social{
+    height: 15%;
+    margin-top: 7%;
+    margin-left: 0;
+}
+
+
+@media (max-width: 400px){
+    .content{
+    
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 100px; */
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-top: 10%;
+        padding-bottom: 10%;
+         */
+        
+    }
+
+
+    .content>div:nth-child(1){
+        background-color:#fff4e0;
+        text-align: justify;
+        align-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+        
+    }
+    
+    .content>div:nth-child(2){
+        background-color:#fff4e0;
+        text-align: justify;
+        align-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+        
+    }
+
+    .content>div:nth-child(5){
+        background-color:#fff4e0;
+        text-align: justify;
+        align-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+        
+    }
+
+    .content>div:nth-child(6){
+        background-color: #fff4e0;
+        text-align: justify;
+        align-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+        
+    }
+    .content>div:nth-child(3){
+        text-align: justify;
+        margin-left: 20%;
+        margin-right: 20%;
+        /* padding-top: 10%;
+        padding-bottom: 10%; */
+    }
+}
